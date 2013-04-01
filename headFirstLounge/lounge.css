@@ -14,7 +14,7 @@ h1, h2 {
 }
 
 h1 {
-    border-bottom:  1px solid black;
+    /*border-bottom:  1px solid black;*/
     font-size:      150%;
 }
 
@@ -23,19 +23,18 @@ h2 {
 }
 
 #guarentee {
-    border-color:   white;
-    border-width:   1px;
-    border-style:   dashed;
+    border:   1px dashed white;
     
     padding:        25px;
     padding-left:   80px;
+    
+    margin:         30px;
+    margin-right:   250px;
     
     background-color:       #a7cece;
     background-image:       url(images/background.gif);
     background-repeat:      no-repeat;
     background-position:    top left;
-    
-    margin: 30px;
 
     font-family:    Georgia, "Times New Roman",  Times, serif;
     color:          #444444;
